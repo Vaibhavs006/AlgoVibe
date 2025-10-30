@@ -1,0 +1,22 @@
+Problem Description
+Miner's Underground Speedrun: Cheapest Dig Path
+The Grand Vision
+You must dig through underground terrain where each grid cell has a different time cost to excavate. Find the path from entrance to treasure that minimizes total digging time.
+
+Unlike simple BFS, this requires Dijkstra's algorithm because cells have different weights. The shortest path is not the one with fewest cells but the one with minimum total cost.
+
+The Technical Challenge
+Implement Dijkstra's algorithm on a weighted grid graph using a priority queue to always explore the lowest-cost path first.
+
+The visualization must show the grid with costs, animating Dijkstra's exploration with the priority queue revealing lower-cost paths taking priority.
+
+Requirements and Constraints
+First line: R C (rows, columns)
+Next R lines: C space-separated integers (time cost for each cell)
+Output Format
+Print minimum total time to dig from (0,0) to (R-1, C-1).
+
+Constraints
+1 ≤ R, C ≤ 100
+1 ≤ cost ≤ 100
+Use Dijkstra with priority queue
