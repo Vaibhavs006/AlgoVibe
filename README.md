@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# 🎯 AlgoVibe
 
-## Project info
+**Watch pathfinding algorithms navigate through a Minecraft-style voxel world** ⛏️
 
-**URL**: https://lovable.dev/projects/3da8b77a-37e0-474b-bbe0-57a7d6b9c853
+An interactive visualization tool that brings BFS, Dijkstra's, and A* pathfinding algorithms to life using Minecraft-inspired block aesthetics and a 3D character moving through a grid.
 
-## How can I edit this code?
+🌐 **[Try it now →](https://algo-vibe.vercel.app)**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ What It Does
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3da8b77a-37e0-474b-bbe0-57a7d6b9c853) and start prompting.
+🧊 **Minecraft-Style Voxels** - Navigate through a blocky 3D grid world  
+🎮 **Character Movement** - Watch a voxel character find its path in real-time  
+🗺️ **Three Algorithms** - Compare BFS, Dijkstra's, and A* side-by-side  
+🐍 **Python Code Display** - See the actual algorithm code as it executes  
+⚖️ **Weighted Terrain** - Different Minecraft blocks represent different path costs  
+🎨 **Block Types** - Sand (low weight), Netherite (high weight), and more  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Pathfinding Algorithms
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### BFS (Breadth-First Search)
+Explores all neighbors at the current depth before moving to the next level. Finds the shortest path in unweighted grids.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Dijkstra's Algorithm
+Finds the shortest path by considering terrain weights. Perfect for cost-optimized pathfinding through different block types.
 
-Follow these steps:
+### A* (A-Star)
+Uses heuristics to find the optimal path faster than Dijkstra's. The smartest pathfinder for weighted grids.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧱 Minecraft Block Terrain
 
-# Step 3: Install the necessary dependencies.
-npm i
+Each block type has different movement costs:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+**Sand** - Low weight, easy to traverse  
+**Stone** - Medium weight, standard terrain  
+**Netherite** - High weight, difficult to cross  
+**Grass** - Light weight paths  
+**Obsidian** - Heavy weight obstacles  
+
+The algorithms must navigate through these blocks to find the optimal path!
+
+---
+
+## 💻 Quick Start
+
+**Use Online** *(easiest)*
+Visit: https://algo-vibe.vercel.app
+text
+
+**Run Locally**
+git clone https://github.com/Vaibhavs006/AlgoVibe.git
+cd AlgoVibe
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Open `http://localhost:5173` 🎉
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🛠️ Built With
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+⚛️ React • 📘 TypeScript • ⚡ Vite • 🎨 Tailwind CSS • 🧩 shadcn-ui
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌐 Deploy
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Open [Lovable](https://lovable.dev/projects/3da8b77a-37e0-474b-bbe0-57a7d6b9c853)
+2. Click **Share → Publish**
+3. Done! 🎊
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/3da8b77a-37e0-474b-bbe0-57a7d6b9c853) and click on Share -> Publish.
+## 👥 Team Heisenbug
 
-## Can I connect a custom domain to my Lovable project?
+Built by the Heisenbug team at [Vaibhavs006](https://github.com/Vaibhavs006) & [Shubhang-Kuber](https://github.com/Shubhang-Kuber) 
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📝 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Open source & free to use! 💚
+
+---
+
+**Made with 💖 by Team Heisenbug**
+
+🚀 [Start Visualizing Now](https://algo-vibe.vercel.app)
+
+---
+
+*Find your path, one block at a time* ⛏️✨
