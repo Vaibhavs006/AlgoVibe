@@ -79,6 +79,7 @@ Open `http://localhost:5173` 🎉
 ## 👥 Team Heisenbug
 
 Built by the Heisenbug team at [Vaibhavs006](https://github.com/Vaibhavs006) & [Shubhang-Kuber](https://github.com/Shubhang-Kuber) 
+[Suraj](https://github.com/Helios117)
 
 ---
 
